@@ -36,10 +36,6 @@ app.add_middleware(
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
-origins = [
-    "http://localhost:5173",
-    "https://grand-archive.vercel.app",
-]
 )
 
 
