@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "https://grand-archive-production.up.railway.app",
+  baseURL: "https://grand-archive-production.up.railway.app/api",
   timeout: 15000,
 });
 
